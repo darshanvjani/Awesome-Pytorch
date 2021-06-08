@@ -82,3 +82,24 @@
 -> We have started to see some over-fitting now. 
 
 -> **Even if the model is pushed further, it won't be able to get to 99.4** [LighterModel_v2.1 Model (CODE))](https://github.com/darshanvjani/Awesome-Pytorch/blob/main/EVAI6/Code%20Drill%20Down%20(Model%20Building)/LighterModel_v2_1(with_batchnorm).ipynb)
+
+# LighterModel_v2.2(with reg) Model 
+## Target
+
+-> Add Regularization, Dropout while keeping batchnorm
+
+## Results:
+
+-> Parameters: 10.9k
+
+-> Best Train Accuracy: 99.41 (20th Epoch)
+
+-> Best Train Accuracy: 99.30
+
+## Analysis:
+
+-> Regularization working. 
+
+-> But with the current capacity, not possible to push it further. 
+
+-> **We are also not using GAP, but depending on a BIG sized kernel** [LighterModel_v2.2 Model (CODE))](https://github.com/darshanvjani/Awesome-Pytorch/blob/main/EVAI6/Code%20Drill%20Down%20(Model%20Building)/LighterModel_v2_2(with_reg).ipynb)
