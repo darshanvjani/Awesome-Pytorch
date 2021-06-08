@@ -45,7 +45,7 @@
 
 -> **We see some over-fitting** [Skelaton_v1.0 Model (CODE))](https://github.com/darshanvjani/Awesome-Pytorch/blob/main/EVAI6/Code%20Drill%20Down%20(Model%20Building)/Skeleton_Model_v1_0.ipynb)
 
-# Skelaton_v2.0 Model 
+# LighterModel_v2.0 Model 
 ## Target
 
 -> Make the model lighter
