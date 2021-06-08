@@ -103,3 +103,22 @@
 -> But with the current capacity, not possible to push it further. 
 
 -> **We are also not using GAP, but depending on a BIG sized kernel** [LighterModel_v2.2 Model (CODE))](https://github.com/darshanvjani/Awesome-Pytorch/blob/main/EVAI6/Code%20Drill%20Down%20(Model%20Building)/LighterModel_v2_2(with_reg).ipynb)
+
+# LighterModel_v2.3(with GAP) Model 
+## Target
+
+-> Add GAP and remove the last BIG kernel.
+
+## Results:
+
+-> Parameters: 6k
+
+-> Best Train Accuracy: 98.65
+
+-> Best Train Accuracy: 97.89
+
+## Analysis:
+
+-> Adding Global Average Pooling reduces accuracy - WRONG
+
+-> **We are comparing a 10.9k model with 6k model. Since we have reduced model capacity, a reduction in performance is expected. ** [LighterModel_v2.3 Model (CODE))](https://github.com/darshanvjani/Awesome-Pytorch/blob/main/EVAI6/Code%20Drill%20Down%20(Model%20Building)/LighterModel_v2_3(with_GAP).ipynb)
