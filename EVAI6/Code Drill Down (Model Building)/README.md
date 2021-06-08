@@ -44,3 +44,22 @@
 -> The model is still large, but working. 
 
 -> **We see some over-fitting** [Skelaton_v1.0 Model (CODE))](https://github.com/darshanvjani/Awesome-Pytorch/blob/main/EVAI6/Code%20Drill%20Down%20(Model%20Building)/Skeleton_Model_v1_0.ipynb)
+
+# Skelaton_v2.0 Model 
+## Target
+
+-> Make the model lighter
+
+## Results:
+
+-> Parameters: 10.7k
+
+-> Best Train Accuracy: 98.85
+
+-> Best Test Accuracy: 98.75
+
+## Analysis:
+
+-> Good model! 
+
+-> **No over-fitting, model is capable if pushed further** [Skelaton_v2.0 Model (CODE))](https://github.com/darshanvjani/Awesome-Pytorch/blob/main/EVAI6/Code%20Drill%20Down%20(Model%20Building)/Skeleton_Model_v2_0.ipynb)
