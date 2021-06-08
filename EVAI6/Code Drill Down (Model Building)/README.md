@@ -62,4 +62,23 @@
 
 -> Good model! 
 
--> **No over-fitting, model is capable if pushed further** [Skelaton_v2.0 Model (CODE))](https://github.com/darshanvjani/Awesome-Pytorch/blob/main/EVAI6/Code%20Drill%20Down%20(Model%20Building)/Skeleton_Model_v2_0.ipynb)
+-> **No over-fitting, model is capable if pushed further** [LighterModel_v2.0 Model (CODE))](https://github.com/darshanvjani/Awesome-Pytorch/blob/main/EVAI6/Code%20Drill%20Down%20(Model%20Building)/LighterModel_v2_0.ipynb)
+
+# LighterModel_v2.1(with batchnorm) Model 
+## Target
+
+-> Add Batch-norm to increase model efficiency.
+
+## Results:
+
+-> Parameters: 10.9k
+
+-> Best Train Accuracy: 99.9
+
+-> Best Test Accuracy: 99.29
+
+## Analysis:
+
+-> We have started to see some over-fitting now. 
+
+-> **Even if the model is pushed further, it won't be able to get to 99.4** [LighterModel_v2.1 Model (CODE))](https://github.com/darshanvjani/Awesome-Pytorch/blob/main/EVAI6/Code%20Drill%20Down%20(Model%20Building)/LighterModel_v2_1(with_batchnorm).ipynb)
