@@ -145,3 +145,29 @@
 -> Closer analysis of MNIST can also reveal that just at RF of 5x5 we start to see patterns forming. 
 
 -> **We can also increase the capacity of the model by adding a layer after GAP!** [LighterModel_v2.3 Model (CODE))](https://github.com/darshanvjani/Awesome-Pytorch/blob/main/EVAI6/Code%20Drill%20Down%20(Model%20Building)/LighterModel_v2_4(Increased_Cap).ipynb)
+
+# LighterModel_v2.5(maxpool correction & proper dropout) Model 
+## Target
+
+-> Increase model capacity at the end (add layer after GAP)
+
+-> Perform MaxPooling at RF=5
+
+-> Fix DropOut, add it to each layer
+## Results:
+
+-> Parameters: 13.8k
+
+-> Best Train Accuracy: 99.39
+
+-> Best Test Accuracy: 99.41 
+
+## Analysis:
+
+-> Works!
+
+-> But we're not seeing 99.4 or more as often as we'd like. We can further improve it. 
+
+-> The model is not over-fitting at all.
+
+-> **Seeing image samples, we can see that we can add slight rotation.** [LighterModel_v2.5(maxpool correction & proper dropout)(CODE))](https://github.com/darshanvjani/Awesome-Pytorch/blob/main/EVAI6/Code%20Drill%20Down%20(Model%20Building)/LighterModel_v2_5(maxpool_correction_%26_proper_dropout).ipynb)
